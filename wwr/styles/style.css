@@ -1,0 +1,80 @@
+content {
+    max-width: 1600px;
+    margin:0 auto;
+}
+.home-title {
+    color: #F79256
+}
+body {
+    background-color: #F79256;
+}
+header {
+    background-color: #7dcfb6;
+}
+footer{
+    background-color: #7dcfb6;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover {
+    color:#1d4e89;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+nav a {
+    text-align:center;
+    color:#1d4e89;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #7dcfb6;
+    color: white;
+}
+h4 {
+    color:white;
+}
+.book, .join {
+    background-color: #F79256 ;
+    color: #1d4e89;
+    text-decoration: none;
+}
+#background {
+    height: 725px;
+    background-color: #7dcfb6;
+}
+.msg {
+    background-color: #7dcfb6;
+}
+.msg h2 {
+    color: white;
+}
+.msg p {
+    color: white;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.icon {
+    width:800px;
+}
+#hero-img {
+    width: 100%;
+}
+.mountains {
+    border: 4px;
+}
+.button-box {
+    text-align:center;
+}
+main section {
+    text-align: center;
+}
+.background {
+    height: 725px;
+}
