@@ -3,8 +3,7 @@ content {
     max-width: 1600px;
     margin:0 auto;
 }
-#logo_link {
-    display: inline-block;
+.logo {
     padding-top: 5px;
     width: 80px;
     height: 80px;
