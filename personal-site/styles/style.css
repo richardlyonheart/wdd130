@@ -85,7 +85,7 @@ main p {
     margin-top: 200px;
 }
 .eagle, .golden, .river, .sailors, .swing-img{
-    width: 200px;
+    width: 300px;
     box-shadow: 5px 5px 10px;
 }
 .eagle:hover, .golden:hover, .river:hover, .sailors:hover, .swing-img:hover{
@@ -105,7 +105,7 @@ main p {
     box-shadow: 5px 5px 10px;
 }
 .malva-img:hover, .logo-img:hover, .btl-img:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 footer{
     margin-top: 50px;
