@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@500&display=swap');
+:root {
+    --heading-font: "Merriweather";
+    --paragraph-font: "Raleway";
+    --headline-color-on-white: #003554;
+    --headline-color-on-color: #F2FDFF;
+    --paragraph-color-on-white: #6A8D92;
+    --paragraph-color-on-color: #F2fdff;
+    --paragraph-background-color: #003554;
+    --nav-link-color: #A30000;
+    --nav-background-color: #003554;
+    --nav-hover-link-color: #A30000;
+    --nav-hover-background-color: #f2fdff;
+}
+
+.logo {
+    padding-top: 5px;
+    width: 80px;
+    height: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#header{
+    background-color: #003554;
+    display: grid;
+    grid-template-columns: 1fr 3fr
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+nav a {
+    padding: 35px;
+    text-align:center;
+    color:#A30000;
+    text-decoration: none;
+    font-family: 'Merriweather';
+}
+nav a:hover {
+    background-color: #A30000;
+    color: white;
+    text-decoration: underline;
+}
+main p {
+    font-size: 1.5em;
+}
+#describe{
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#profile {
+    margin-top: 50px;
+    display:grid;
+    justify-content: center;
+}
+.pro-img {
+    border: 50px solid #6A8D92;
+}
+#intro {
+    font-size: 1.5em;
+    display:grid;
+    text-align: center;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+}
+#gallery-pic{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.eagle, .golden, .river, .sailors, .swing-img{
+    width: 200px;
+    box-shadow: 5px 5px 10px;
+}
+.eagle:hover, .golden:hover, .river:hover, .sailors:hover, .swing-img:hover{
+    transform: scale(2);
+}
+.malvamia, .logo2 , .btl  {
+    text-align: center;
+    justify-content: stretch;
+
+}
+.malva-img, .logo-img, .btl-img {
+    width:100%;
+    margin: 0 0;
+    padding: 25px;
+    max-width: 300px;
+    border: 5px solid #6A8D92;
+    box-shadow: 5px 5px 10px;
+}
+.malva-img:hover, .logo-img:hover, .btl-img:hover {
+    transform: scale(2);
+}
+footer{
+    margin-top: 50px;
+    height: 100px;
+    background-color: #003554;
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+    align-content: center;
+    justify-content: space-around;
+}
+footer p{
+    font-size: 1.2em;
+    justify-self: stretch;
+    padding-left: 20px;
+    color:#F2FDFF;
+}
+footer a {
+    padding: 35px;
+    text-align:center;
+    color:#A30000;
+    text-decoration: none;
+    font-family: 'Merriweather';
+}
+footer a:hover{
+    background-color: #A30000;
+    color: white;
+    text-decoration: underline;  
+}
