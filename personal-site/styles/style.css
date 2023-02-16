@@ -94,7 +94,7 @@ main p {
     margin-top: 200px;
 }
 .eagle, .golden, .river, .sailors, .swing-img, .bossman-img, .frog-img, .shadow-img, .titans-img{
-    width: 200px;
+    width: 80%;
     border: 5px solid #003554;
     box-shadow: 5px 5px 10px;
 }
