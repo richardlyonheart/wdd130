@@ -48,6 +48,7 @@ nav a:hover {
     text-decoration: underline;
 }
 main {
+    border: 20px solid #003554;
     background-color: #6A8D92;
 }
 main p {
@@ -93,16 +94,20 @@ main p {
     margin-top: 200px;
 }
 .eagle, .golden, .river, .sailors, .swing-img, .bossman-img, .frog-img, .shadow-img, .titans-img{
-    width: 300px;
+    width: 200px;
+    border: 5px solid #003554;
     box-shadow: 5px 5px 10px;
 }
 .eagle:hover, .golden:hover, .river:hover, .sailors:hover, .swing-img:hover,  .bossman-img:hover, .frog-img:hover, .shadow-img:hover, .titans-img:hover{
-    transform: scale(2);
+    transform: scale(1.2);
 }
 .malvamia, .logo2 , .btl  {
     text-align: center;
     justify-content: stretch;
 
+}
+.malvamia{
+    margin-top: 50px;
 }
 .malva-img, .logo-img, .btl-img {
     width:100%;
@@ -112,10 +117,10 @@ main p {
     box-shadow: 5px 5px 10px;
 }
 .malva-img:hover, .logo-img:hover, .btl-img:hover  {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 footer{
-    margin-top: 50px;
+    
     height: 100px;
     background-color: #003554;
     display:grid;
